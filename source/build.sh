@@ -16,6 +16,8 @@ echo test.o >> linkfile
 echo Link
 wlalink linkfile output.sms
 
+cp output.sms ../MegaMan2.sms
+
 echo Run
 # https://linuxhint.com/what_is_dev_null
 java -jar ~/SEGA/Emulicious/Emulicious.jar output.sms 2> /dev/null
