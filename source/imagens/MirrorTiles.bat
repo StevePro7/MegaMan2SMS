@@ -1,0 +1,1 @@
+CompressedDataIndexer.exe %1 -m
