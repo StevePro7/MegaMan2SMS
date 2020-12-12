@@ -7,7 +7,7 @@ megamanSteadTempTiles:
 	.incbin "imagens\megamanSteadTemp.psgcompr" skip 2
 .ends
 
-.include "imagens\alphabet.indexes.inc"
+.include "imagens/alphabet.indexes.inc"
 .define alphabetTilesCount 42
 .define alphabetTilesSize alphabetTilesCount*32
 .define alphabetTiles.A alphabetTiles.11
@@ -30,7 +30,7 @@ bossFacesTiles:
 	.incbin "imagens\bossFaces.psgcompr" skip 2
 .ends
 
-.include "imagens\openingSprites.indexes.inc"
+.include "imagens/openingSprites.indexes.inc"
 .define openingSpritesTilesCount 24
 .define openingSpritesTilesSize openingSpritesTilesCount*32
 .define arrowTile openingSpritesTiles.14

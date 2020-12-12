@@ -43,7 +43,7 @@ banks 14
 .include "opnBossObjectsTable.inc"
 .include "miscObjectsTable.inc"
 .include "objectAttributes.inc"
-.include "imagens\megamanTiles.inc"
+.include "imagens/megamanTiles.inc"
 .include "weaponsResources.inc"
 
 .include "PSGlib.asm"

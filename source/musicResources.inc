@@ -13,7 +13,7 @@ wilyStage1Music:
 .slot 2
 .section "mainMenuMusic" superfree
 mainMenuMusic:	
-	.incbin "songs\mainMenu.psg"
+	.incbin "songs\mainmenu.psg"
 .ends
 
 .slot 2

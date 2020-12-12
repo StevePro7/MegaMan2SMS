@@ -2,13 +2,13 @@
 .define __MAPS_RESOURCES_INC__
 
 .slot 2
-.include "maps\openingMap.inc"
+.include "maps/OpeningMap.inc"
 
 .slot 2
-.include "maps\stageSelectionMap.inc"
+.include "maps/stageSelectionMap.inc"
 
 .slot 2
-.include "maps\blueGridMap.inc"
+.include "maps/blueGridMap.inc"
 
 .macro paletteAnimationSetUp args framesPerFrames, colorsPerFrame, numFrames
 	.db PaletteAnimationMark | framesPerFrames
@@ -83,14 +83,14 @@
 	.endif
 .endm
 
-.include "maps\bubblemanStage.inc"
-.include "maps\metalmanStage.inc"
-.include "maps\quickmanStage.inc"
-.include "maps\airmanStage.inc"
-.include "maps\woodmanStage.inc"
-.include "maps\heatmanStage.inc"
-.include "maps\flashmanStage.inc"
-.include "maps\crashmanStage.inc"
+.include "maps/bubblemanStage.inc"
+.include "maps/metalmanStage.inc"
+.include "maps/quickmanStage.inc"
+.include "maps/airmanStage.inc"
+.include "maps/woodmanStage.inc"
+.include "maps/heatmanStage.inc"
+.include "maps/flashmanStage.inc"
+.include "maps/crashmanStage.inc"
 
 .endif
 
