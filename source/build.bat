@@ -17,6 +17,8 @@ wlalink linkfile output.sms
 if exist output.sms.sym del output.sms.sym
 if exist test.o del test.o
 
+cp output.sms ..\MegaMan2.sms
+
 echo Run
 ::java -jar C:\SEGA\Emulicious\Emulicious.jar output.sms
 output.sms
