@@ -2,16 +2,16 @@
 
 clear
 
-if [ -a test.o ]
+if [ -a main.o ]
 then
-    rm test.o
+    rm main.o
 fi
 
 echo Compile
-wla-z80 -o test.o main.asm 
+wla-z80 -o main.o main.asm 
 
 echo [objects] > linkfile
-echo test.o >> linkfile
+echo main.o >> linkfile
 
 echo Link
 wlalink linkfile output.sms
@@ -24,7 +24,7 @@ java -jar ~/SEGA/Emulicious/Emulicious.jar output.sms 2> /dev/null
 #output.sms
 
 
-if [ -a test.o ]
+if [ -a main.o ]
 then
-    rm test.o
+    rm main.o
 fi

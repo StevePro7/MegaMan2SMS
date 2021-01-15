@@ -2,20 +2,20 @@
 
 cls
 
-if exist test.o del test.o
+if exist main.o del main.o
 
 
 echo Compile
-wla-z80 -o test.o main.asm 
+wla-z80 -o main.o main.asm 
 
 echo [objects] > linkfile
-echo test.o >> linkfile
+echo main.o >> linkfile
 
 echo Link
 wlalink linkfile output.sms
 
 if exist output.sms.sym del output.sms.sym
-if exist test.o del test.o
+if exist main.o del main.o
 
 cp output.sms ..\MegaMan2.sms
 

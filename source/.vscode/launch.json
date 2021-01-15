@@ -8,7 +8,7 @@
             "type": "emulicious-debugger",
             "request": "launch",
             "name": "Launch in Emulicious",
-            "program": "${workspaceFolder}/main.asm",
+            "program": "${workspaceFolder}/output.sms",
             "port": 58870,
             "stopOnEntry": true
         }
